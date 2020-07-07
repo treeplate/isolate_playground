@@ -1,0 +1,12 @@
+This is from myIsolate() > main
+This is from main() > isolate
+isolate > This is from myIsolate()
+Got This is from myIsolate() > isolate
+main > This is from main()
+Got This is from main() > main
+main > Got This is from myIsolate()
+ACK > main
+isolate > Got This is from main()
+ACK > isolate
+isolate > ACK
+main > ACK
